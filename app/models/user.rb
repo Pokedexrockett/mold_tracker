@@ -3,4 +3,7 @@ class User < ApplicationRecord
     has_many :notes
     has_many :strain_notes, through: :notes, source: :strain
     has_many :dry_rooms
+
+    has_secure_password
+
 end

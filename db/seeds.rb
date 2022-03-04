@@ -7,9 +7,9 @@
 #   Character.create(name: "Luke", movie: movies.first)
 
 
-Strain.create(name: "Purple Punch", bactch_id: "10000000007894", metric_tag: 12345, date: "01/20/2022", mold_weight: 13, dry_room_id:1)
-Strain.create(name: "Gelato", bactch_id: "10000000007894", metric_tag: 12346, date: "01/20/2022", mold_weight: 24, dry_room_id:2)
-Strain.create(name: "Cinderella 99", bactch_id: "10000000007894", metric_tag: 12347, date: "01/20/2022", mold_weight: 6, dry_room_id:3)
+Strain.create(name: "Purple Punch", batch_id: "10000000007894", metric_tag: 12345, date: "01/20/2022", mold_weight: 13, dry_room_id:1)
+Strain.create(name: "Gelato", batch_id: "10000000007894", metric_tag: 12346, date: "01/20/2022", mold_weight: 24, dry_room_id:2)
+Strain.create(name: "Cinderella 99", batch_id: "10000000007894", metric_tag: 12347, date: "01/20/2022", mold_weight: 6, dry_room_id:3)
 
 
 User.create(name: "test", email: "test@test.com", password: "testing")
